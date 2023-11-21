@@ -1,0 +1,680 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.home{
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+
+
+
+
+.home .left{
+background: linear-gradient(135deg, #FFFFFF, #6abecd8a);
+width: 800px;
+height: 600px;
+border-radius: 20px;
+margin-left: 20px;
+}
+
+.left .bo{
+  padding-top: 150px;
+  font-size: 56px;
+ margin-left: 60px;
+}
+
+.left .in{
+  font-size: 56px;
+  margin-left: 60px;
+  margin-top: -20px;
+}
+
+.left .bet{
+  width: 500px;
+  margin-left: 60px;
+  color: slategray;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.home .right{
+  background-color: white;
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  margin-left: 600px;
+  margin-top: -340px;
+  box-shadow: 15px 3px 24px 3px #6abecd53;
+}
+
+.right h3{
+  margin-left: 25px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+input[type="radio"]{
+ width: 21px;
+ height: 21px;
+ border-radius: 50%;
+ margin-top: 16px;
+ accent-color:rgba(137, 43, 226, 0.347);
+}
+
+input[type="radio"]:hover{
+cursor: pointer;
+}
+
+.right .fir{
+  margin-left: 25px;
+}
+
+.right .sec{
+  margin-left: 215px;
+}
+
+.right .met,.imp{
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 14px;
+  margin-left: 12px;
+  position: absolute;
+}
+
+.calc{
+  margin-top: 50px;
+}
+
+.calc label{
+  margin-top: -23px;
+  margin-left: 40px;
+  position: absolute;
+  font-size: 14px;
+  color: slategray;
+}
+
+.calc input{
+  margin-left: 40px;
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid slategray;
+  padding-left: 20px;
+  font-size: 20px;
+ font-weight: 600;
+}
+
+.calc p{
+  margin-left: 190px;
+  margin-top: -45px;
+  font-weight: 600;
+  color:#6abecd ;
+  font-size: 19px;
+}
+
+.right button{
+  border: none;
+  background-color: #6abecd;
+  color: white;
+  width: 400px;
+  height: 40px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.right button:hover{
+background-color: transparent;
+color: #6abecd;
+border: 1px solid #6abecd;
+transition: 0.3s;
+}
+
+.wel{
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #6abecdc9;
+  width: 450px;
+  height: 100px;
+  border-radius: 20px 180px 180px 20px;
+  position: absolute;
+}
+
+.wel h3{
+  color: white;
+  font-weight: 600;
+ margin-top: -10px;
+}
+
+.wel p{
+  font-size: 12px;
+  color: white;
+  margin-left: 28px;
+}
+
+.bmi{
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #6abecdc9;
+  width: 450px;
+  height: 100px;
+  border-radius: 20px 180px 180px 20px;
+  position: absolute;
+  display: none;
+}
+
+.bmi .bb{
+  color: white;
+ font-size: 16px;
+ margin-top: 20px;
+ margin-left: 20px;
+}
+
+.bmi #num{
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 36px;
+  margin-top: -20px;
+  position: absolute;
+}
+
+.bmi p{
+  color: white;
+  width: 250px;
+  margin-left: 200px;
+  margin-top: -35px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1130px) {
+
+  .home{
+    height: 130vh !important;
+  }
+  
+  .left{
+    position: absolute;
+   left: -20px;
+   width: 708px !important;
+  }
+
+  .left .bo{
+  margin-left: 6px;
+  }
+
+  .left .in{
+   margin-left: 6px;
+  }
+
+  .left .bet{
+    margin-left: 6px ;
+  }
+
+
+  .right{
+    margin-left: 500px !important;
+   
+  }
+ 
+
+ .right button{
+  margin-left: 40px;
+ }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+
+  .home{
+    height: 130vh !important;
+  }
+  
+  .left{
+    position: absolute;
+   left: -20px;
+   width: 878px !important;
+  }
+
+  .left .bo{
+    margin-top: -70px;
+    margin-left: 280px;
+  }
+
+  .left .in{
+    width: 500px;
+   margin-left: 240px;
+   margin-top: -8px;
+   font-size: 47px;
+  }
+
+  .left .bet{
+    text-align: center;
+    margin-left: 75px ;
+    width: 740px;
+  }
+
+
+  .right{
+    margin-left: 200px !important;
+    margin-top: 50px !important;
+   
+  }
+ 
+
+ .right button{
+  margin-left: 40px;
+ }
+
+ 
+}
+
+
+
+
+
+@media (max-width: 900px) {
+
+  .home{
+    height: 130vh !important;
+  }
+  
+  .left{
+    position: absolute;
+   left: -20px;
+   width: 760px !important;
+  }
+
+  .left .bo{
+    margin-top: -70px;
+    margin-left: 230px;
+  }
+
+  .left .in{
+    width: 500px;
+   margin-left: 200px;
+   margin-top: -8px;
+   font-size: 47px;
+  }
+
+  .left .bet{
+    text-align: center;
+    margin-left: 15px ;
+    width: 740px;
+  }
+
+
+  .right{
+    margin-left: 150px !important;
+    margin-top: 50px !important;
+   
+  }
+ 
+
+ .right button{
+  margin-left: 40px;
+ }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 780px) {
+
+  .home{
+    height: 130vh !important;
+  }
+  
+  .left{
+    position: absolute;
+   left: -20px;
+   width: 703px !important;
+  }
+
+  .left .bo{
+    margin-top: -70px;
+    margin-left: 190px;
+  }
+
+  .left .in{
+    width: 500px;
+   margin-left: 160px;
+   margin-top: -8px;
+   font-size: 47px;
+  }
+
+  .left .bet{
+    text-align: center;
+    margin-left: 40px ;
+    width: 640px;
+  }
+
+
+  .right{
+    margin-left: 110px !important;
+    margin-top: 50px !important;
+   
+  }
+ 
+
+ .right button{
+  margin-left: 40px;
+ }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 710px) {
+
+  .home{
+    height: 130vh !important;
+  }
+  
+  .left{
+    position: absolute;
+   left: -20px;
+   width: 653px !important;
+  }
+
+  .left .bo{
+    margin-top: -70px;
+    margin-left: 190px;
+  }
+
+  .left .in{
+    width: 500px;
+   margin-left: 160px;
+   margin-top: -8px;
+   font-size: 47px;
+  }
+
+  .left .bet{
+    text-align: center;
+    margin-left: 40px ;
+    width: 600px;
+  }
+
+
+  .right{
+    margin-left: 90px !important;
+    margin-top: 50px !important;
+   
+  }
+ 
+
+ .right button{
+  margin-left: 40px;
+ }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 668px) {
+
+  .home{
+    height: 130vh !important;
+  }
+  
+  .left{
+    position: absolute;
+   left: -20px;
+   width: 563px !important;
+  }
+
+  .left .bo{
+    margin-top: -70px;
+    margin-left: 120px;
+  }
+
+  .left .in{
+    width: 500px;
+   margin-left: 90px;
+   margin-top: -8px;
+   font-size: 47px;
+  }
+  
+
+
+  .left .bet{
+    text-align: center;
+    margin-left: 40px ;
+    width: 500px;
+  }
+
+
+  .right{
+    margin-left: 30px !important;
+    margin-top: 50px !important;
+   
+  }
+ 
+
+ .right button{
+  margin-left: 40px;
+ }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 567px) {
+
+  .home{
+    height: 190vh !important;
+  }
+  
+  .left{
+    position: absolute;
+   left: -20px;
+   width: 470px !important;
+  }
+
+  .left .bo{
+    margin-top: -70px;
+    margin-left: 80px;
+  }
+
+  .left .in{
+    width: 100px ;
+   margin-left: 160px;
+   margin-top: -8px;
+   font-size: 56px;
+  }
+
+  .left .in span{
+    margin-left: -75px;
+  }
+
+  .left .bet{
+    text-align: center;
+    margin-left: 60px ;
+    width: 350px;
+  }
+
+
+
+
+  .right{
+    margin-left: 20px !important;
+    margin-top: 50px !important;
+    width: 430px !important;
+    height: 760px !important;
+  }
+
+  .calc input{
+    width: 350px;
+    margin-top: 10px;
+  }
+
+ .calc .heig label{
+  margin-top: -14px;
+ }
+
+ .calc  p{
+  margin-left: 320px;
+  font-size: 30px;
+ }
+
+ .calc .heig p{
+  position: absolute;
+ top: 722px;
+ }
+
+
+
+
+ .calc .weig input{
+  margin-top: 40px;
+ }
+
+
+ .calc .weig label{
+  margin-top: 15px;
+ }
+ 
+
+ .calc .weig p{
+  margin-top: -55px;
+ }
+
+ .right button{
+  margin-left: 10px;
+ }
+
+ .right .wel{
+  margin-left: 10px;
+  width: 400px;
+  height: 300px;
+  border-radius: 30px;
+ }
+
+ .right .wel h3{
+  font-size: 40px;
+ }
+
+ .right .wel p{
+  font-size: 20px;
+  margin-top: 30px;
+ }
+
+ .bmi{
+  margin-left: 10px;
+  width: 400px;
+  height: 300px;
+  border-radius: 30px;
+ }
+
+ .bmi .bb{
+  font-size: 24px;
+ }
+
+ .bmi #num{
+  font-size: 60px;
+ }
+
+ .bmi .yourb{
+  margin-top: 100px;
+  margin-left: 20px;
+  font-size: 23px;
+  width: 300px;
+ }
+
+}
